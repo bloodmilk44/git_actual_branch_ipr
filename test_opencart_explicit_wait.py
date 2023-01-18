@@ -10,7 +10,7 @@ driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install())
 url = 'https://demo.opencart.com/'
 
 
-def test_explict_wait_iphone():
+def test_explict_wait_iphone_2():
     """В этом тесте всплывающее уведомление о добавлении в корзину принудительно закрывается, поэтому прописан wait
     на отсутствие уведомления в DOM дереве"""
     driver.get(url)
