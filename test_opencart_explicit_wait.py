@@ -32,7 +32,7 @@ def test_explict_wait_iphone_2():
     alert_dissapear = wait.until(EC.invisibility_of_element_located((By.XPATH, "//*[@class='fas fa-check-circle']")))
 
 
-def test_explict_wait_samsung_syncmaster():
+def test_explict_wait_samsung_syncmaster_9():
     """В этом тесте всплывающее уведомление о добавлении в корзину принудительно не закрывается, поэтому прописан wait
         на отсутствие уведомления в DOM дереве после 10 секунд (примерно за это время уведомление исчезает)"""
     driver.get(url)
